@@ -1,0 +1,26 @@
+[
+  { "username" : "Aidan",
+    "roles" : [ "Boys", "Girls", "Irish" ]
+  },
+  { "username" : "Cinderella",
+    "roles" : [ "Girls", "French" ]
+  },
+  { "username" : "Edna",
+    "roles": [ "Girls", "Celtic" ]
+  },
+  { "username" : "Keegan",
+    "roles" : [ "Boys", "Girls", "Celtic", "Gaelic" ]
+  },
+  { "username" : "Nathaniel",
+    "roles" : [ "Boys", "Hebrew" ]
+  },
+  { "username" : "Seraphina",
+    "roles" : [ "Girls", "Hebrew" ]
+  },
+  { "username" : "Tana",
+    "roles" : [ "Girls", "Greek" ]
+  },
+  { "username" : "Vulcan",
+    "roles" : [ "Boys", "Latin" ]
+  }
+]
