@@ -25,3 +25,7 @@ The private page has a method for logging out.  After logging out, the session i
 
 ### The Session Resource
 The "session" consists of the user, their ip address, and the time the session was created.  Get requests to the session resource return the session data as json.  If the session id is not valid or does not exist, the session data is empty.  Other services use the session resource to access global session data.
+
+### Installation
+
+Please complete this section with instructions on how to set up your application so that we can try it out.  We've got a variety of applications using Java, PHP, HTTPD, and Tomcat and are pretty comfortable in that space.  Outside of that, we could use some extra details!
