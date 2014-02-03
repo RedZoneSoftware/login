@@ -1,0 +1,167 @@
+/* 
+    Document   : Login Access
+    Created on : Jan 31, 2014, 4:41:55 PM
+    Author     : Kearnan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #DDD;
+    background: #333
+}
+
+#passcodeUserAdd  {
+    position: relative;
+    margin: 50px auto 0px auto;
+    width: 600px;
+    height: 250px;
+    background: url('../img/card600x250.png') no-repeat;
+    text-align: left;
+    color: #333;
+}
+
+#passcodeUserAdd  sup {
+    color: red;
+    font-size: 16px;
+}
+
+#passcodeForm {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#formTop {
+    width: 100%;
+    height: 1px;
+    clear: both;
+}
+
+#addUserMsg {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 16px 0px 30px 0px;
+    clear: both;
+}
+
+.leftText {
+    display: inline-block;
+    height: 22px;
+    width: 120px;
+    margin-right: 12px;
+    margin-left: 36px;
+    text-align: right;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.error {
+    display: inline-block;
+    color: red;
+    font-size: 11px;
+    height: 22px;
+    width: 120px;
+    margin-left: 180px;
+    text-align: left;
+}
+
+.userNameInput, .userPassInput, .userURLInput {
+    display: inline-block;
+    width: 300px;
+    height: 18px;
+    clear: both;
+}
+
+#newUserSubmit {
+    position: absolute;
+    right: 24px;
+    bottom: 12px;
+    width: 120px;
+}
+
+#successContainer {
+    display: none;
+    width: 100%;
+    height: 24px;
+    margin-top: 12px;
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+#welcomer {
+    font-weight: bold;
+}
+
+#welcome_page h2 {
+    display: inline-block;
+    margin: 12px;
+}
+
+#thanks {
+    text-align: center;
+    padding-top: 80px;
+}
+
+#auth1 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+#auth2 {
+    text-align: center;
+}
+
+#logout_redirect {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #DDD;
+}
+
+#logout_redirect:hover {
+    color: white;
+}
+
+#pageBottom {
+    height: 100px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    text-align: center;
+}
+
+#login_time, #login_ip {
+    display: block;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#aCanvas {
+    background-color: black;
+}
+
+
