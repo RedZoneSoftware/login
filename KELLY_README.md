@@ -12,7 +12,7 @@ Upon successful login, a session is created for that user and the user sees the 
 If a user with a valid session visits the login page, they are not prompted to login.  Instead, they immediately see the private page.
 >**Build Notes:**
 >My login controller is contained in the php/getAccess.php file.  The user must provide a valid user name to gain access, password input, not being required, is ignored. non-valid names will display an error message.
->If s user returns to the login page and still has a session active, they'll be forwarded to their private page after seeing a brief notification
+>If the user returns to the login page and still has a session active, they'll be forwarded to their private page after seeing a brief notification
 >I am setting cookies at login and removing them, along with session validation, at log out.  Not actually using them anywhere as I'm managing the access via subsequent pages.
 >Half way through this I realized how nicely this would suit a single page application nicely but as it seemed more of a test of my session management ability over object oriented page building, I went with the multi-page approach.
 
