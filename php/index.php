@@ -22,7 +22,7 @@ if(isset($_SESSION['username'])) {
         <div id="passcodeUserAdd">
             <div id="addUserMsg">Please Enter Login Information</div>
             <div>
-                <span class="leftText">Login Name:</span><input class="userNameInput validate" id="username" name="userName" type="text" value="Keegan">&nbsp;<sup>*</sup>
+                <span class="leftText">Login Name:</span><input class="userNameInput validate" id="username" name="userName" type="text" value="">&nbsp;<sup>*</sup>
             </div>
             <div>
                 <span class="name error hidden">Please enter a value</span>
